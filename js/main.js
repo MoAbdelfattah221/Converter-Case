@@ -15,5 +15,5 @@ capBtn.onclick = function(){
     textArea.style.cssText = "text-transform: capitalize;";
 }
 clrBtn.onclick = function(){
-    textArea.textContent = "";
+    textArea.value = "";
 }
