@@ -4,6 +4,11 @@ let uppBtn = document.querySelector(".upper")
 let capBtn = document.querySelector(".capitalize")
 let clrBtn = document.querySelector(".clear")
 
+// Focus The Text Area when the window Loading 
+window.onload = function(){
+    textArea.focus();
+}
+
 // Functions
 lowBtn.onclick = function(){
     textArea.style.cssText = "text-transform: lowercase;";
